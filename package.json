@@ -1,0 +1,20 @@
+{
+  "name": "yt-downloader-bot",
+  "version": "1.0.0",
+  "description": "Advanced Telegram YouTube Downloader Bot",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "telegraf": "^4.16.3",
+    "uuid": "^9.0.1",
+    "winston": "^3.13.0"
+  }
+}
